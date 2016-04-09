@@ -1,15 +1,18 @@
 <html>
   <script>
     function doTheThing(input) {
+      var value;
+      
       alert(input);
+      return false;
     }
   </script>
   <body>
     <h1>Trying Javascript</h1>
     <div id="content"></div>
-    <form>
-      <input type="text" name="input" />
-      <input type="button" name="button" onclick="doTheThing('Hi')" />
+    <form onsubmit="return doTheThing('Hi')">
+      <input type="text" name="joe" />
+      <input type="submit" name="button" value="Click Me Please!"  />
     </form>
   </body>
 </html>
