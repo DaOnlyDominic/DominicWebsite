@@ -1,5 +1,15 @@
 <html>
+  <script>
+    function doTheThing(input) {
+      alert(input);
+    }
+  </script>
   <body>
     <h1>Trying Javascript</h1>
+    <div id="content"></div>
+    <form>
+      <input type="text" name="input" />
+      <input type="button" name="button" onclick="doTheThing('Hi')" />
+    </form>
   </body>
 </html>
