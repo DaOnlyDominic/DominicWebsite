@@ -1,16 +1,16 @@
 <html>
   <script>
-    function doTheThing(input) {
-      var value;
+    function doTheThing(form) {
+      var value=form.joe.value;
       
-      alert(input);
+      alert(value);
       return false;
     }
   </script>
   <body>
     <h1>Trying Javascript</h1>
     <div id="content"></div>
-    <form onsubmit="return doTheThing('Hi')">
+    <form onsubmit="return doTheThing(this)">
       <input type="text" name="joe" />
       <input type="submit" name="button" value="Click Me Please!"  />
     </form>
