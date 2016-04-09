@@ -1,10 +1,10 @@
 <html>
   <script>
     function doTheThing(form) {
-      var value=form.a.value;
-      var value=form.b.value;
+      var a = form.a.value;
+      var b = form.b.value;
       
-      form.answer.value = a+b;
+      form.answer.value = a + b;
       return false;
     }
   </script>
@@ -12,9 +12,9 @@
     <h1>Trying Javascript</h1>
     <div id="content"></div>
     <form onsubmit="return doTheThing(this)">
-      <input type="text" name="a" label="#1" />
-      <input type="text" name="b" label="#2"/>
-      <input type="text" name="answer" label="Sum"/>
+      <label for="a">A</label><input type="text" name="a" /> +
+      <label for="b">B</label><input type="text" name="b" /> =
+      <label for="answer">Sum</label><input type="text" name="answer" label="Sum"/>
       <input type="submit" name="button" value="Click Me Please!"  />
     </form>
   </body>
