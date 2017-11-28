@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<script>
+		var ataribreakout = function() {
+			window.open("https://www.google.com/search?q=atari+breakout&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiE9qLms-LXAhWr5oMKHXehB3MQ_AUICigB&biw=1676&bih=846")
+		}
+		var memestash = function() {
+			window.open("memestash")
+		}
+	</script>
+	<style>
+		.T1 {
+			color: green;
+			size: 500px;
+			padding-left: 100px;
+		}
+		.T2 {
+
+		}
+	</style>
+	<head>
+		<title>Tan Mode</title>
+		<div class="T1">
+			<h1>Tan Mode<h1>
+		</div>
+		<div class="T2">
+			<a href="http://www.notdoppler.com/renegaderacing.php">
+				<img src="https://assets.orangegames.com/games/assets/promos/2/109562/88865/renegade-racing-364056.jpg?r=0">
+			</a>
+		</div>
+		<div class="T3">
+			<a href = "http://www.arcadeprehacks.com/game/3236/Big-Battle-Tanks.html">
+				<img src="http://www.tankgame.org/screenshots/bigbattletanks-2.jpg">
+			</a>
+		</div>
+		<div class="T4">
+			<a href="http://www.smbgames.be/super-mario-crossover.phpc">
+				<img src="https://i0.wp.com/explodingrabbit.com/wp-content/uploads/2014/03/super-mario-bros-crossover-versi.jpg?fit=480%2C360">
+			</a>
+		</div>
+		<div class="T5">
+			<a href="http://trumpdonald.org">
+				<img src="http://trumpdonald.org/assets/soc/twitter_share_image.jpg">
+			</a>
+		</div>
+	</head>
+</html>
