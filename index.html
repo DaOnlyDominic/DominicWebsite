@@ -61,77 +61,13 @@
 	</script>
 	<head>
 	</head>
-	<body>
+
 		<h1>Hello! This is Dominic's Website!</h1>
 		<h2>This website is still in construction</h2>
 		<iframe src="whooosreading.org">
   			<p>Your browser does not support iframes.</p>
 		</iframe>
-		<script type='text/javascript' src='http://m.free-codes.org/g.php?id=2002'></script><style type="text/css">
-</style>
-<script language="JavaScript1.2">
-
-var x,y
-var kern=20 
-var flag=0
-var message="Welcome to "
-message=message.split("")
-var xpos=new Array()
-for (i=0;i<message.length;i++) {
-	xpos[i]=-50
-	}
-var ypos=new Array()
-for (i=0;i<message.length;i++) {
-	ypos[i]=-50
-	}
-function handlerMM(e){
-	x = (e) ? e.pageX : document.body.scrollLeft+event.clientX
-	y = (e) ? e.pageY : document.body.scrollTop+event.clientY
-	flag=1
-	}
-function makebanner() {
-	if (flag==1) {
-		for (i=message.length-1; i>=1; i--) {
-			xpos[i]=xpos[i-1]+kern
-			ypos[i]=ypos[i-1]
-			}
-		xpos[0]=x+kern
-		ypos[0]=y
-		for (i=0; i<message.length; i++) {
-			if (document.getElementById) {
-				var thisspan = document.getElementById("span"+i).style
-				} else {
-				var thisspan = eval((document.layers)?"document.span"+i:"span"+(i)+".style")
-				}
-			if (thisspan.posLeft) {
-				thisspan.posLeft=xpos[i]
-				thisspan.posTop=ypos[i]
-				}
-			if (!thisspan.posLeft) {
-				thisspan.left=xpos[i]
-				thisspan.top=ypos[i]
-				}
-			}
-		}
-		var timer=setTimeout("makebanner()",30)
-	}
-window.onload=makebanner;
-</script>
-
-
-
-<script language="JavaScript1.2">
-for (i=0;i<message.length;i++) {
-document.write("<span id='span"+i+"' class='spanstyle'>")
-document.write(message[i])
-document.write("</span>")
-}
-if (document.layers){
-document.captureEvents(Event.MOUSEMOVE);
-}
-document.onmousemove = handlerMM;
-
-</script>
+	<body><span id="span0" class="spanstyle" style="left: 97px; top: 62px;">W</span><span id="span1" class="spanstyle" style="left: 117px; top: 62px;">e</span><span id="span2" class="spanstyle" style="left: 137px; top: 62px;">l</span><span id="span3" class="spanstyle" style="left: 157px; top: 62px;">c</span><span id="span4" class="spanstyle" style="left: 177px; top: 62px;">o</span><span id="span5" class="spanstyle" style="left: 197px; top: 62px;">m</span><span id="span6" class="spanstyle" style="left: 217px; top: 62px;">e</span><span id="span7" class="spanstyle" style="left: 237px; top: 62px;"> </span><span id="span8" class="spanstyle" style="left: 257px; top: 62px;">t</span><span id="span9" class="spanstyle" style="left: 277px; top: 62px;">o</span><span id="span10" class="spanstyle" style="left: 297px; top: 62px;"> </span>
 
 <style type="text/css">
 <!--
@@ -211,7 +147,6 @@ document.captureEvents(Event.MOUSEMOVE);
 }
 document.onmousemove = handlerMM;
 
-</script></body>
-<br /><a target="_blank" href="http://free-web-tools.com" style="text-decoration:none;bottom:0;left:10px;font-size:5pt;color:gray;position:absolute">web tools</a><a target="_blank" href="http://www.javascriptbestcodes.com" style="font-size: 8pt; text-decoration: none">Javascript Codes</a>
-	</body>
+</script><span id="span0" class="spanstyle">w</span><span id="span1" class="spanstyle">e</span><span id="span2" class="spanstyle">l</span><span id="span3" class="spanstyle">c</span><span id="span4" class="spanstyle">o</span><span id="span5" class="spanstyle">m</span><span id="span6" class="spanstyle">e</span><span id="span7" class="spanstyle"> </span><span id="span8" class="spanstyle">t</span><span id="span9" class="spanstyle">o</span><span id="span10" class="spanstyle"> </span><span id="span11" class="spanstyle" style="left: 317px; top: 62px;">m</span><span id="span12" class="spanstyle" style="left: 337px; top: 62px;">y</span><span id="span13" class="spanstyle" style="left: 357px; top: 62px;"> </span><span id="span14" class="spanstyle" style="left: 377px; top: 62px;">p</span><span id="span15" class="spanstyle" style="left: 397px; top: 62px;">a</span><span id="span16" class="spanstyle" style="left: 417px; top: 62px;">g</span><span id="span17" class="spanstyle" style="left: 437px; top: 62px;">e</span>
+<br></body>
 </html>
