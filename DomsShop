@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<style>
+		h1 {
+			color: red;
+		}
+	</style>
+	<script>
+	</script>
+	<head>
+		<h1>Hello! This is Dominic's Pokémon shop.</h1>
+	</head>
+	<body>
+	</body>
+</html>
