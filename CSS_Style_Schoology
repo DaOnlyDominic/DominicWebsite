@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+html {
+    background-image: url("https://78.media.tumblr.com/7b2da43b98c43016261831c240381fba/tumblr_o6ol996fHJ1tcu68no1_400.gif");
+}
+p, h1, h2, h3 {
+    color: #00bfff;
+    background-color: #000000;
+    padding: 100px;
+    overflow: hidden;
+}
+.sExtlink-processed {
+    color: #00bfff;
+    background-color: #000000;
+}
+.sgy-tabbed-navigation {
+    background-color: #000000;
+}
