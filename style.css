@@ -7,3 +7,45 @@
 .center {
   text-align: center;
 }
+body {
+  margin: 0;
+}
+
+div {
+  width: 100px;
+  position: absolute;
+  background-size: 100px 100px;
+  height: 100px;
+  top: 50%;
+  left: calc(50% - 50px);
+  transform: translateY(-50%);
+}
+
+b {
+  background: url(http://daonlydominic.github.io/DominicWebsite/ForeverGif.gif) no-repeat;
+  width: 10px;
+  height: 10px;
+  float: left;
+  position: absolute;
+  background-size: 100px 100px;
+}
+
+@for $i from 0 through 9 {
+  @for $j from 0 through 9 {
+    b:nth-of-type(#{$i * 10 + $j + 1}) {
+      top: (10 * $i) + px;
+      left: (10 * $j) + px;
+      background-position: (10 * $j * -1) + px (10 * $i * -1) + px;
+    }
+  }
+}
+
+button {
+  float: right;
+}
+
+.translate-x {
+  transition: transform 0.3s, opacity 0.3s;
+  transform: translateX(500px);
+  opacity: 0;
+}
