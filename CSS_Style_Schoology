@@ -17,3 +17,48 @@ p, h1, h2, h3 {
 .sgy-tabbed-navigation {
     background-color: #000000;
 }
+
+
+
+
+
+#hplogo {
+    display: block;
+    background: url("https://daonlydominic.github.io/DominicWebsite/googlelogoblue.png") no-repeat;
+    width: 350px;
+    height: 75px;
+    margin-top: 75px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+    left: 500px;
+    top: 100px;
+}
+body {
+    background-color: black;
+}
+.RNNXgb {
+
+    background: #000000;
+    display: flex;
+    border-radius: 2px;
+    border-color: #00bfff;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 484px;
+
+}
+p, a, h1, h2, em, span {
+    color: #00bfff !important;
+}
+cite {
+    color: #ffffff;
+}
+div#top_nav {
+    background-color: #2a2a2e;
+}
+.sfbgg, .hdtbSum {
+    background-color: #2a2a2e;
+}
