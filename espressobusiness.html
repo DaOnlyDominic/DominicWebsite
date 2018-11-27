@@ -11,34 +11,48 @@
     font-family: "Century Gothic";
     color: #00bfff;
     }
-    ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #303030;
-    }
-    li a {
-    display: block;
-    color: #00bfff;
-    padding: 8px 16px;
-    text-decoration: none;
-    font-family: "Century Gothic";
-    font-weight: bold;
-    }
+    .nav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      background-color: #303030;
+      }
+      .nav a {
+      display: block;
+      color: #00bfff;
+      padding: 8px 16px;
+      text-decoration: none;
+      font-family: "Century Gothic";
+      font-weight: bold;
+      }
     li a:hover {
     background-color: #00bfff;
     }
     a:hover {
     color: #ffffff !important;
     }
+    #title {
+        position: relative;
+        left: 200px;
+      }
+      #title span {
+        font-size: 30px;
+        transition: font-size 1s;
+        position: absolute;
+      }
+      #title span:hover {
+        font-size: 100px;
+        -webkit-transition: width 2s;
+        transition: font-size .5s;
+      }
 </style>
 <head>
     <title>Dominic's Website | Espresso Business</title>
 </head>
 <body>
-    <h1 class="center font1">Dominic's Espresso Business</h1>
-    <ul>
+    <h1 id="title" class="font1"><span>Dominic's Espresso Business</span></h1>
+    <ul class="nav">
         <li><a href="https://daonlydominic.github.io/DominicWebsite/dominicchat.html">Chat</a></li>
         <li><a href="https://daonlydominic.github.io/DominicWebsite/espressobusiness.html">Espresso Business</a></li>
         <li><a href="https://daonlydominic.github.io/DominicWebsite/pictures.html">Pictures</a></li>
