@@ -13,6 +13,8 @@
             color: rgb(255, 255, 255);
             text-transform: uppercase;
             background-image: url("https://daonlydominic.github.io/DominicWebsite/ForeverGif.gif");
+            animation-name: example;
+            animation-duration: 4s;
             }
             .center {
             text-align: center;
@@ -48,12 +50,23 @@
             a:hover {
             color: #ffffff !important;
             }
+            @keyframes example {
+              0%   {color: red;}
+              12.5%  {color: orange;}
+              25%  {color: yellow;}
+              50% {color: green;}
+              62.5% {color: blue}
+              75% {color: purple}
+              87.5% {color: black}
+              100% {color: white}
+}
             <link rel="icon" href="http://daonlydominic.github.io/DominicWebsite/avatar.png">
         </style>
         <title>Welcome! | Dominic's Website</title>
     </head>
     <body>
         <h1 class="center imagetext">Welcome to my Website!</h1>
+        <p style="color: red !important; font-family: arial !important; float: right;">Version: 2.1</p>
         <ul>
             <li><a href="https://daonlydominic.github.io/DominicWebsite/dominicchat.html">Chat</a></li>
             <li><a href="https://daonlydominic.github.io/DominicWebsite/espressobusiness.html">Espresso Business</a></li>
